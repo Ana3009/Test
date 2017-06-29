@@ -1,3 +1,9 @@
+<?php 
+
+require_once 'Controller.php';
+
+?>
+
 <!DOCTYPE HTML>
 
 <html>
@@ -8,6 +14,10 @@
 	</head>
 
 	<body>
+
+	<?php $codrin = new Controller(); ?>
+
+	<?= $codrin->actionHelloWorld() ?>
 		
 		<div>
 			<h1>Lorem Ipsum Dolor</h1>
