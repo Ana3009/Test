@@ -1,0 +1,177 @@
+.menu {
+    background-color: #123652;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 25px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px 17px;
+    background-color: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #123652;
+    min-width: 133px;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.header-1 h1 {
+    font-family: Garamond;
+    text-align: center !important;
+}
+
+.content-section {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.content-section .text {
+    font-family: Garamond;
+    font-size: 30px;
+}
+
+ .content-section img {
+    width: 375px;
+    height: 667px;
+}
+
+.content {
+    margin-top: 1em;
+    max-width: 80%;
+    background-color: rgba(87, 125, 186, 0.2);
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1px;
+    padding-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about {
+    font-family: Garamond;
+    font-size: 26px;
+    text-align: justify;
+}
+
+.about h3, .contact h3 {
+    text-align: center;
+    font-family: Garamond;
+    font-size: 40px;
+}
+
+.list {
+    text-align: left;
+    font-family: Garamond;
+    font-size: 30px; 
+}
+
+.ritual h3 {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 35px;
+} 
+
+ #crowley {
+    margin-left: 7em;
+    width: 998px;
+    height: 408px;
+}
+
+.product h4 {
+    text-align: left;
+    font-size: 35px;
+    font-family: Garamond;
+    position: relative;
+}
+
+.product p {
+    text-align: left;
+    font-family: Garamond;
+    font-size: 25px;
+    position: relative;
+}
+
+
+#bitch-img  {
+    width: 240px;
+    height: 324px;
+    position: relative;
+    margin-left: 55em;
+    bottom: 18em;
+}
+
+#jerk-img, #assbutt-img, #idjit-img  {
+    width: 225px;
+    height: 400px;
+    position: relative;
+    margin-left: 55em;
+    bottom: 18em;
+}
+  
+.footer-one {
+    overflow: hidden;
+    padding: 1em;
+    margin-top: 2em;
+    color: white;
+    background-color: #123652;
+    text-align: center;
+    max-width: 100%;
+}
+
+.footer-two {
+    overflow: hidden;
+    padding: 1em;
+    margin-top: 2em;
+    color: white;
+    background-color: #123652;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+body {
+    background-image: url(https://www.kndm.ro/domains/kndm/files/product/original/kendama-sweets-prime-grain-split-raider-249-1779.jpg); 
+}
+
