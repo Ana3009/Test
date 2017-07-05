@@ -72,7 +72,7 @@ body {
 
 .dropdown {
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .dropdown-content {
@@ -87,8 +87,12 @@ body {
     border: 1px solid black;
 }
 
+.dropdown-content a {
+    max-width: 100%;
+}
+
 .dropdown:hover .dropdown-content {
-    display: block;
+    display: inline-block;
 }
 
 /* ./ Dropdown.new */
